@@ -1,0 +1,36 @@
+main{
+    display: flex;
+    justify-content: space-between;
+    margin: 10% 5%;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 80%;
+}
+
+.country-info{
+    font-family: 'Trebuchet MS';
+    font-size: 20px;
+    text-align: center;
+    background-color: grey;
+    border-radius: 25px;
+    width: 20%;
+    height: 20%;
+    overflow: hidden;
+    padding: 15px 15px;
+    position: relative;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.hover-active{
+    opacity: 1;
+    width: 20%;
+    height: 20%;
+    position: relative;
+}
+
+path:hover{
+    fill: rgb(242, 229, 229);
+    stroke: rgb(13, 26, 26);
+    cursor: pointer;
+}
